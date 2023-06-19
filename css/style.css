@@ -54,3 +54,15 @@ body {
     bottom: 12vh;
     line-height: .9;
 }
+
+.gallery{
+    display: flex;
+}
+
+.gallery > * {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
